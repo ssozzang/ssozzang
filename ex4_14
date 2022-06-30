@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+void main()
+{
+	  float c, f, t;  //콤마 연산자 사용
+
+    frintf("섭씨 온도를 입력하시오:");
+	  scanf_s("%f", &c);
+	
+	  f = (t = c * 9/5, t += 32); //콤마 연산자 사용	
+	  printf("화씨 온도는 %5.1f도 입니다. \n", f);
+}
