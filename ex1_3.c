@@ -2,7 +2,7 @@
 
 void main()
 {
-	int seore1= 80, score2= 70, score3= 90;
+	int sore1= 80, score2= 70, score3= 90;
 	int sum;
 	
 	sum=0;
