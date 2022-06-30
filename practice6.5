@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+void main()
+{
+      int score, total = 0, cnt = 0;
+      
+      do {
+          printf("성적을 입력 하시오:");
+          scanf_s("%d', score);
+          total += score;
+          cnt++;
+          
+      }while (cnt < 5);
+      printf("성적의 합계는 %d 입니다.\n"), total);
+}
